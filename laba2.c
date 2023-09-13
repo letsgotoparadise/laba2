@@ -20,14 +20,14 @@
 int main()
 {
 	float n = 3, d;
-	int L = 333;
+	int L = 233;
 	d = n / L;
 	setlocale(LC_ALL, "RUS");
 	printf("Дано:\n");
-	printf("%.3f\n", n);
+	printf("%.0f\n", n);
 	printf("%.3d\n", L);
 	printf("Ответ:\n");
 	printf("%s\n", "_________");
-	printf("%+08.3f\n", d);
+	printf("%+06.2f\n", d);
 	
 }
